@@ -1,0 +1,16 @@
+CREATE TABLE users (
+  id VARCHAR NOT NULL PRIMARY KEY,
+  contact VARCHAR NOT NULL,
+  address VARCHAR,
+  code VARCHAR,
+  token VARCHAR
+)
+
+CREATE TABLE shares (
+  id VARCHAR NOT NULL PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  ipfs VARCHAR,
+  nu VARCHAR,
+  nupk VARCHAR,
+  nurk VARCHAR,
+)
